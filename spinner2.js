@@ -1,6 +1,5 @@
 //https://web.compass.lighthouselabs.ca/days/w02d2/activities/863
 
-
 // Refactor the logic from spinner1.js to remove the repeated setTimeout statements.
 // Should have 8-10 lines of code
 process.stdout.write('hello from spinner1.js... \rheyyy\n');
@@ -12,6 +11,9 @@ for (let i = 0; i < spinner.length; i++) {
     process.stdout.write(`\r${spinner[i]}   `);
   }, i * 200);
 }
+
+//Not sure what Compass was referring to with 8-10 lines of code
+
 
 // setTimeout(() => {
 //   process.stdout.write('\r|   '); // we have lots of spaces at the end of the string just to move the cursor away from where we are printing to make the spinner more visible
